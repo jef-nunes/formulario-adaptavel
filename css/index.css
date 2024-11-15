@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "ChakraPetch";
+    src: url("../fonts/ChakraPetch-Regular.ttf");
+}
+
+#central{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    height: fit-content;
+}
+
+#logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#btn-color-scheme-container{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+#btn-color-scheme-label{
+    margin-top: 40px;
+    opacity: 0.5;
+}
+
+#btn-color-scheme{
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+}
+
+#logo-img{
+    height: 30px;
+    width: 30px;
+}
+
+#logo-title{
+    font-family: "ChakraPetch", sans-serif;
+    user-select: none;
+}
+
+.form-01-labels{
+    user-select: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "ChakraPetch", sans-serif;
+}
+
+#form-01{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 185px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    align-items: center;
+}
+
+#form-01 input{
+    margin-bottom: 20px;
+    width: 130px;
+}
+#form-01 span{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#btn-send-form{
+    font-size: 16px;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+#btn-send-form:hover{
+    opacity: 1;
+}

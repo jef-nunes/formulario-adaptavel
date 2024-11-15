@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(175, 190, 209);
+    color: black;
+}
+
+#central{
+    background-image: url("../images/sea.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#logo-title{
+    color: rgb(0, 135, 193);
+}
+
+#form-01{
+    background-color: rgb(222, 231, 246);
+    border-color: rgb(100, 119, 156);
+}
+
+#btn-color-scheme{
+    background-image: url(../images/sun.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

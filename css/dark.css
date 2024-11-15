@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(11, 12, 15);
+    color: azure;
+}
+
+#central{
+    background-image: url("../images/galaxy.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#logo-title{
+    color: rgb(53, 161, 255);
+}
+
+#btn-send-form{
+    color: whitesmoke;
+    background-color: rgb(40, 45, 55);
+    border-style: solid;
+    border-color: rgb(56, 71, 94);
+}
+
+#form-01{
+    background-color: rgb(28, 36, 55);
+    border-color: rgb(77, 104, 150);
+}
+
+#form-01 input{
+    color: rgb(216, 216, 216);
+    font-weight: bold;
+    background-color: rgb(71, 77, 97);
+    border-style: none;
+}
+
+.form-01-labels{
+    color: rgb(192, 201, 227);
+    font-weight: normal;
+}
+
+#btn-color-scheme{
+    background-color: rgb(94, 105, 131);
+    background-image: url(../images/moon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(75, 76, 88);
+}
